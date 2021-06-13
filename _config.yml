@@ -31,7 +31,9 @@ github_username:  lm3m
 
 # Build settings
 # theme: minima
-remote_theme: mmistakes/minimal-mistakes@4.23.0
+remote_theme: jekyll/minima
+minima:
+  skin: solarized-dark
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
