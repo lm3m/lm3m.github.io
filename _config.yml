@@ -32,6 +32,7 @@ github_username:  lm3m
 
 # Build settings
 # theme: minima
+show_excerpts: true
 remote_theme: jekyll/minima
 minima:
   skin: solarized-dark
