@@ -21,7 +21,9 @@
 title: zoner.notes
 email: zoner.notes@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  The intersection of strange musci and odd coding projects, a blog of sorts.
+  The intersection of strange music and odd coding projects.
+  
+  A blog, of sorts.
 baseurl: "" # the subpath of your site, e.g. /blog
 timezone: America/New_York
 url: "https://lm3m.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
