@@ -6,8 +6,9 @@ category: intro
 author: Luke W. McCullough (zoner.notes@gmail.com)
 tags: [intro]
 summary: Something different
+excerpt_separator: <!--more-->
 ---
 
 ![My face](/assets/face_20210614.jpg)
-
-Now with images, see different.
+<!--more-->
+Now with images! See, different.

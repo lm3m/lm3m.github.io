@@ -35,6 +35,9 @@ github_username:  lm3m
 remote_theme: jekyll/minima
 minima:
   skin: solarized-dark
+  social_links:
+    twitter: lm3m
+    github: lm3m
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
