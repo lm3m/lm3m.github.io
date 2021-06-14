@@ -1,0 +1,12 @@
+---
+layout: post
+title: testing 101
+date: Mon, 14 Jun 2021 13:59:51 -0400
+category: intro
+author: Luke W. McCullough (zoner.notes@gmail.com)
+tags: [intro, testing]
+summary: testing posting from other places
+---
+
+testing posting from other places...
+
