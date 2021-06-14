@@ -9,6 +9,9 @@ summary: Something different
 excerpt_separator: <!--more-->
 ---
 
-![My face](/assets/face_20210614.jpg)
-<!--more-->
 Now with images! See, different.
+
+<!--more-->
+
+![My face](/assets/face_20210614.jpg)
+
