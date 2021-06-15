@@ -37,7 +37,7 @@ remote_theme: jekyll/minima
 minima:
   skin: solarized-dark
   social_links:
-    twitter: lm3m
+    twitter: zoner_notes
     github: lm3m
 plugins:
   - jekyll-feed
