@@ -2,10 +2,6 @@
 layout: default
 ---
 
-{% assign ttags = post.tags | join:'|' | append:'|' %}
-{% assign rawtags = rawtags | append:ttags %}
-{% assign rawtags = rawtags | split:'|' | sort %}
-
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -29,8 +25,8 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}
-      {%- if page.tags.size > 0 -%} 
-        | {% for tag in page.tags %}
+      {%- if page.tags.size > 0 -%} | 
+        {% for tag in page.tags %}
             <a href="/tags.html#{{ tag | slugify }}" class="post-tag"><code><small>{{ tag }}</small></code></a>
         {% endfor %}
       {%- endif -%}
