@@ -26,7 +26,7 @@ layout: default
         {% endfor %}
       {%- endif -%}
       {%- if page.tags.size > 0 -%}
-          | 
+          &nbsp;| 
         {% for tag in page.tags %}
             <a href="/tags.html#{{ tag | slugify }}" class="post-tag"><code><small>{{ tag }}</small></code></a>
         {% endfor %}
