@@ -29,11 +29,11 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}
-      {% if page.tags %} | 
-        {% for tag in page.tags %}
+      {%- if page.tags -%} 
+        | {% for tag in page.tags %}
             <a href="/tags.html#{{ tag | slugify }}" class="post-tag"><code><small>{{ tag }}</small></code></a>
         {% endfor %}
-      {% endif %}
+      {%- endif -%}
     </p>
   </header>
 
