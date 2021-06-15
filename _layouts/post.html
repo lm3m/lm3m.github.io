@@ -25,7 +25,8 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}
-      {%- if page.tags.size > 0 -%} | 
+      {%- if page.tags.size > 0 -%}]
+          | 
         {% for tag in page.tags %}
             <a href="/tags.html#{{ tag | slugify }}" class="post-tag"><code><small>{{ tag }}</small></code></a>
         {% endfor %}
