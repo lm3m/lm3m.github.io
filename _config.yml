@@ -39,6 +39,7 @@ minima:
   social_links:
     twitter: zoner_notes
     github: lm3m
+  date_format: "%Y.%m.%d"
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
