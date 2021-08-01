@@ -44,6 +44,13 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    posts:
+      author: Luke W. McCullough (zoner.notes@gmail.com)
+      tags: [intro, testing]
+      summary: Summary of the article
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
